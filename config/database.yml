@@ -1,0 +1,20 @@
+development:
+  adapter: postgresql
+  database: mercadera_development
+  host: localhost
+  encoding: unicode
+  port: 5432
+
+test:
+  adapter: postgresql
+  database: mercadera_test
+  host: localhost
+  encoding: unicode
+  port: 5432
+
+production:
+  adapter: postgresql
+  database: mercadera_production
+  pool: 25
+  timeout: 5000
+  encoding: unicode
